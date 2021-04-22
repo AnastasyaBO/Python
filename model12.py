@@ -7,5 +7,6 @@ tkb = int((per_cent['ТКБ']) * (money / 100))
 skb = int((per_cent['СКБ']) * (money / 100))
 vtb = int((per_cent['ВТБ']) * (money / 100))
 sber = int((per_cent['СБЕР']) * (money / 100))
-deposit = ['ТКБ:', tkb, 'СКБ:', skb, 'ВТБ:', vtb, 'СБЕР:',sber]
+deposit = [tkb, skb, vtb, sber]
 print(deposit)
+print(max(deposit))
