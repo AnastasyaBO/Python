@@ -18,4 +18,4 @@ class Round:
     def __init__(self, r):
         self.r = r
     def get_area_round(self):
-        return 2 * 3.14 * (self.r ** 2)
+        return 3.14 * (self.r ** 2)
